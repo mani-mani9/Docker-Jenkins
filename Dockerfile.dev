@@ -1,0 +1,9 @@
+FROM nginx
+
+RUN apt update
+
+COPY ./login /usr/share/nginx/html
+
+EXPOSE 80
+
+
