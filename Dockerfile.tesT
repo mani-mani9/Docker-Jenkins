@@ -1,7 +1,0 @@
-FROM nginx
-
-RUN apt update
-
-COPY ./Static /usr/share/nginx/html
-
-EXPOSE 8083
