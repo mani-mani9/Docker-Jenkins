@@ -2,7 +2,7 @@ FROM nginx
 
 RUN apt update 
 
-COPY ./site /usr/share/nginx/html/
+COPY ./Site /usr/share/nginx/html/
 
 WORKDIR /dev
 
